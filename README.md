@@ -1,3 +1,18 @@
+# Repro step
+
+```sh
+git clone https://github.com/doggy8088/scully-problem.git
+cd scully-problem
+npm i
+ng build
+
+# hang
+npm run scully
+
+npm run scully -- killServer
+npm run scully -- --scanRoutes
+```
+
 # Demo2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
